@@ -1,0 +1,110 @@
+/* Estilos para o layout geral */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #111111;
+    color: #47E10C;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para a seção "Sobre a Razer Store" */
+.sobre {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+    background-color: black;
+}
+
+.sobre h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #47e10c;
+
+}
+
+.sobre-imagem {
+    flex: 1;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.sobre-imagem img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sobre-texto {
+    flex: 1;
+    color: #fff;
+}
+
+/* Estilos para a seção "Nossos Produtos" */
+.produtos {
+    padding: 50px;
+    text-align: center;
+    background-color: black;
+
+}
+
+.produtos h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+    color: #47e10c;
+}
+
+.produto {
+    display: inline-block;
+    text-align: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    vertical-align: top;
+    width: 300px;
+    max-width: 100%;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.produto h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #47e10c;
+}
+
+.produto p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.produto button {
+    background-color: #51c523;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.produto button:hover {
+    background-color: #47E10C;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #111111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
